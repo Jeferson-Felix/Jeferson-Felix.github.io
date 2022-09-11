@@ -3,9 +3,10 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 35vmin;
   pointer-events: none;
   border-radius: 50%;
+  border:8px solid #434C5E;
 }
 
 .App-header {
@@ -26,7 +27,24 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.App-icons {
+  margin-top: -2.5rem;
+}
+
+.App-title {
+  font-size: calc(24px + 2vmin);
+  color: white;
+}
+
+.App-subtitle {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 1rem;
 }
 
 @keyframes App-logo-spin {
