@@ -14,8 +14,9 @@ function App() {
         <a
           href="https://github.com/jeferson-felix"
           target="_blank"
+          rel='noreferrer'
         >
-          <img src={githublogo} className="App-Link"></img>
+          <img src={githublogo} alt='github-logo' className="App-Link"></img>
         </a>
       </header>
     </div>
