@@ -1,7 +1,7 @@
 import foto from '../media/foto.jpg';
 import '../css/App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faLinkedin, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   return (
@@ -24,6 +24,14 @@ function App() {
             rel='noreferrer'
           >
             <FontAwesomeIcon icon={faGithub} size="lg"></FontAwesomeIcon>
+          </a>
+          <a
+            className='App-link'
+            href="https://www.linkedin.com/in/jeferson-felix-6a911a250/"
+            target="_blank"
+            rel='noreferrer'
+          >
+            <FontAwesomeIcon icon={faLinkedin} size="lg"></FontAwesomeIcon>
           </a>
             <a
             className='App-link'
